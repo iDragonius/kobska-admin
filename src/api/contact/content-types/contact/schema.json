@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Kontakt",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "required": true
+    },
+    "message": {
+      "type": "text"
+    },
+    "status": {
+      "type": "boolean",
+      "default": false
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "complaint",
+        "suggestion"
+      ],
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

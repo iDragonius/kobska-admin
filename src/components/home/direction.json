@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_directions",
+  "info": {
+    "displayName": "Direction",
+    "icon": "arrow-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "direction_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::direction-type.direction-type"
+    },
+    "name": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

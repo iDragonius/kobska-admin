@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.9.2",
+    "@strapi/plugin-i18n": "4.9.2",
+    "@strapi/plugin-users-permissions": "4.9.2",
+    "@strapi/strapi": "4.9.2",
+    "pg": "8.6.0",
+    "sharp": "^0.32.0",
+    "slugify": "^1.6.5",
+    "strapi-plugin-meilisearch": "^0.9.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "7ed8af6a-c970-4793-acf6-b4a99d9742a7"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

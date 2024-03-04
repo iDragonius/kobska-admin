@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_common_social_networks",
+  "info": {
+    "displayName": "Social Network",
+    "icon": "desktop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

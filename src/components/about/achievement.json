@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_achievements",
+  "info": {
+    "displayName": "Achievement",
+    "icon": "graduation-cap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_about_directors",
+  "info": {
+    "displayName": "Director",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

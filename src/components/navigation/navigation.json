@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_navigation_navigations",
+  "info": {
+    "displayName": "Navigation",
+    "icon": "road"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "path": {
+      "type": "string",
+      "required": true
+    },
+    "navigation_elements": {
+      "displayName": "Navigation Element",
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.navigation-element"
+    },
+    "status": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "hasLink": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

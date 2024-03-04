@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "purpose_values_duties_goals",
+  "info": {
+    "singularName": "purpose-values-duties-goal",
+    "pluralName": "purpose-values-duties-goals",
+    "displayName": "Məqsəd, Dəyərlər, Vəzifə, Hədəflər",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "purpose": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about.achievement"
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about.achievement"
+    }
+  }
+}

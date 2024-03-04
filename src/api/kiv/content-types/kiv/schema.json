@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kivs",
+  "info": {
+    "singularName": "kiv",
+    "pluralName": "kivs",
+    "displayName": "KIV",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "attachment": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "kiv.branding",
+        "kiv.image",
+        "kiv.video-clip"
+      ],
+      "max": 1,
+      "required": true
+    }
+  }
+}

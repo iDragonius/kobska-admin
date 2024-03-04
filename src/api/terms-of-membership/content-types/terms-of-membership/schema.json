@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "terms_of_memberships",
+  "info": {
+    "singularName": "terms-of-membership",
+    "pluralName": "terms-of-memberships",
+    "displayName": "Üzvlük şərtləri",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "purpose": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "membership.terms"
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "membership.terms"
+    }
+  }
+}

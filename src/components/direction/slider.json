@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_direction_sliders",
+  "info": {
+    "displayName": "slider",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "expiration_date": {
+      "type": "date"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_home_opportunities",
+  "info": {
+    "displayName": "Opportunity",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

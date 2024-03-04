@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_navigation_navigation_elements",
+  "info": {
+    "displayName": "Navigation Element",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "path": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    },
+    "status": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

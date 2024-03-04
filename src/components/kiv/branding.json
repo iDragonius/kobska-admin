@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_kiv_brandings",
+  "info": {
+    "displayName": "Branding",
+    "icon": "code-branch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

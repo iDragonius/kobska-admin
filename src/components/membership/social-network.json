@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_membership_social_networks",
+  "info": {
+    "displayName": "Social Network",
+    "icon": "info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "default": "https://"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

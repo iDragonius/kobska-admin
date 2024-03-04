@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "member_types",
+  "info": {
+    "singularName": "member-type",
+    "pluralName": "member-types",
+    "displayName": "Üzv tipləri"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "members": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::member.member",
+      "mappedBy": "member_type"
+    }
+  }
+}

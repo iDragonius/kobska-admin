@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_membership_terms",
+  "info": {
+    "displayName": "Terms",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

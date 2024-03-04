@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "become_members",
+  "info": {
+    "singularName": "become-member",
+    "pluralName": "become-members",
+    "displayName": "Become member"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "father_name": {
+      "type": "string"
+    },
+    "bdate": {
+      "type": "date"
+    },
+    "country": {
+      "type": "string"
+    },
+    "phone1": {
+      "type": "string"
+    },
+    "phone2": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "company_name": {
+      "type": "string"
+    },
+    "employee_count": {
+      "type": "integer"
+    },
+    "field_of_activity": {
+      "type": "string"
+    },
+    "company_phone1": {
+      "type": "string"
+    },
+    "company_phone2": {
+      "type": "string"
+    },
+    "company_email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "creating_date": {
+      "type": "date"
+    }
+  }
+}

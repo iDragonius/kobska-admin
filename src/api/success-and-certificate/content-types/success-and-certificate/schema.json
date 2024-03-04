@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "successes_and_certificates",
+  "info": {
+    "singularName": "success-and-certificate",
+    "pluralName": "successes-and-certificates",
+    "displayName": "Uğurlar / Sertifikatlar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "certificate",
+        "success"
+      ],
+      "default": "certificate",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    }
+  }
+}

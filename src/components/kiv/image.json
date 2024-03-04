@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_kiv_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
