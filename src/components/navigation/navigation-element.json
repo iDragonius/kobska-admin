@@ -20,6 +20,14 @@
       "type": "boolean",
       "default": true,
       "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "absolute",
+        "relative"
+      ],
+      "default": "relative"
     }
   }
 }

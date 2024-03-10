@@ -130,6 +130,16 @@
         }
       },
       "component": "direction.slider"
+    },
+    "videos": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.video"
     }
   }
 }
