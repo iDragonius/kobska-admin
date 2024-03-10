@@ -68,6 +68,14 @@
         }
       },
       "component": "common.social-network"
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

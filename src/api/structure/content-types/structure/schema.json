@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "structures",
+  "info": {
+    "singularName": "structure",
+    "pluralName": "structures",
+    "displayName": "Structure",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "members": {
+      "displayName": "structures",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about.structures"
+    }
+  }
+}

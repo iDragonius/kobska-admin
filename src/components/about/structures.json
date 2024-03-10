@@ -1,46 +1,43 @@
 {
-  "collectionName": "components_about_directors",
+  "collectionName": "components_about_structures",
   "info": {
-    "displayName": "Director",
-    "icon": "info",
+    "displayName": "structures",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true
+    "fullName": {
+      "type": "string"
     },
-    "position": {
-      "type": "string",
-      "required": true
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
     },
     "image": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
     },
-    "description": {
-      "type": "richtext"
+    "year": {
+      "type": "integer"
     },
     "socialNetworks": {
       "type": "component",
       "repeatable": true,
       "component": "common.social-network"
     },
-    "year": {
-      "type": "integer"
-    },
-    "address": {
-      "type": "string"
-    },
     "phoneNumber": {
       "type": "string"
     },
-    "email": {
+    "description": {
+      "type": "richtext"
+    },
+    "position": {
       "type": "string"
     }
   }

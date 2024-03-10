@@ -28,6 +28,9 @@
         "relative"
       ],
       "default": "relative"
+    },
+    "years": {
+      "type": "string"
     }
   }
 }
